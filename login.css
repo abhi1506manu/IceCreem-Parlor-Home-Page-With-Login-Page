@@ -1,0 +1,75 @@
+
+                                           /* LOGIN PAGE CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #ffffff;
+    font-family: poppins;
+}
+.form{
+     width:100%;
+     height: 100%;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     background-color: rgba(0,0,0,0.2);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     z-index: 102;
+ }
+ .login-form{
+     width:420px;
+     padding: 20px 10px;
+     background-color: #ffffff;
+     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 5px;
+     position: relative;
+  
+ }
+ .login-form form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+ }
+ .login-form strong{
+     color: #272727;
+     font-size: 2rem;
+     margin: 2px 7px 7px 7px;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+     font-weight: 500;
+ }
+ .login-form input{
+     width:90%;
+     height: 45px;
+     margin: 6px 0px;
+     padding: 0px 10px;
+     border: 1px solid rgba(0,0,0,0.1);
+     outline: none;
+     border-radius: 7px;
+ }
+ .login-form input::placeholder{
+     color: rgba(0,0,0,0.5);
+ }
+ .login-form input[type="submit"]{
+     background-color: #3510cb;
+     color: #ffffff;
+     border: none;
+     outline: none;
+     text-transform: uppercase;
+     margin-top: 15px;
+     margin-bottom: 40px;
+     border-radius: 3px;
+     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+ }
+
